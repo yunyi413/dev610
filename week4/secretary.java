@@ -1,5 +1,2 @@
-public class Hello {
-    public static void main(String[] args) {
-        System.out.println("Hello World");
-    }
-}
+public class Secretary extends Employee { public void takeDictation(String text) {
+System.out.println("Taking dictation of text: " + text); }
